@@ -8,13 +8,24 @@
     position: fixed;
 }
 
-.header-content {
+.header-content, .header-title, .header-buttons {
     float: left;
 }
 
-.header-menu {}
+.header-content {
+    display: inline-block
+}
+
+.header-menu, .header-search, .header-word {
+    float: left;
+}
 
 .header-title {
     width: 185px;
     height: 25px;
+    margin-left: 400px;
+}
+
+.header-buttons {
+    margin-left: 900px;
 }
