@@ -6,9 +6,14 @@
 
 .header-container {
     position: fixed;
+    margin-top: 8px;
+    padding: 5px;
+    overflow: hidden;
 }
 
-.header-content, .header-title, .header-buttons {
+.header-content,
+.header-title,
+.header-buttons {
     float: left;
 }
 
@@ -16,7 +21,9 @@
     display: inline-block
 }
 
-.header-menu, .header-search, .header-word {
+.header-menu,
+.header-search,
+.header-word {
     float: left;
 }
 
@@ -24,8 +31,36 @@
     width: 185px;
     height: 25px;
     margin-left: 400px;
+    float: left;
+    overflow: hidden;
 }
 
 .header-buttons {
     margin-left: 900px;
+    float: left;
+}
+
+.header-buttons button {
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+}
+
+.btn {
+    float: left;
+    font: 11px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.btn-subscribe {
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.btn-log-in {
+    width: 60px;
+    height: 35px;
+    border-radius: 5px;
 }
