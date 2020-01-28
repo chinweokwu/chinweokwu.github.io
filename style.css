@@ -2,10 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
-
-.header-container {
+body{
+   
+}
+header{
     position: fixed;
+    z-index:25;
+    background-color: #fff;
+}
+.header-container {
     margin-top: 8px;
     padding: 5px;
     overflow: hidden;
@@ -18,49 +25,112 @@
 }
 
 .header-content {
-    display: inline-block
+    display: inline-block;
+    
 }
 
 .header-menu,
 .header-search,
 .header-word {
     float: left;
+    padding:4px 0 0 35px; 
+    cursor: pointer;  
+    font-size:16px 
+}
+.header-word a{
+    color: black;
+    text-decoration: none;
+    
+} 
+.header-word a :hover{
+    text-decoration: underline;
 }
 
 .header-title {
     width: 185px;
     height: 25px;
-    margin-left: 400px;
+    margin-left: 300px;
     float: left;
-    overflow: hidden;
+    padding-right:40px;
+    cursor:pointer;
+    padding-top:2px;
 }
 
+svg{
+    width: 200px;
+    
+}
 .header-buttons {
-    margin-left: 900px;
+    margin:-4px 0 0 370px;
     float: left;
+    
 }
 
 .header-buttons button {
     background-color: #567b95;
     border: 1px solid #326891;
     color: #fff;
+    cursor:pointer;
+    border-radius: 3px;
+    height: 35px;
+    
 }
 
 .btn {
     float: left;
-    font: 11px;
     padding-left: 10px;
-    border-radius: 20px;
+    
 }
 
 .btn-subscribe {
-    height: 35px;
-    width: 110px;
-    border-radius: 5px;
+    font-size: 10px;
+    padding-top:8px;
+    padding-right: 2px
+    
 }
 
 .btn-log-in {
     width: 60px;
-    height: 35px;
-    border-radius: 5px;
+    font-size: 10px;
+    padding-top:8px;
+    
+    
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* section one */
+main{
+    position:absolute;
+    top: 60px;
+    left:-50px;
+    z-index:1;
+}
+.section1-title{
+    text-align: center;
+    padding:25px;
+}
+
+.section1-title h1{
+    margin-left: 10px;
+}
+.dennis-img img {
+    margin-left: 170px;
+    width:130%;
+
+}
+.image-text p{
+    margin-left: 165px;
+    color:#66667D;
+}
+
+.image-text span{
+    color:#96B8E8;
+    display: inline-block;
+    font-size:3px;
 }
