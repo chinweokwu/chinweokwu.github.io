@@ -171,14 +171,15 @@ li a i {
     color: black;
 }
 
+
 .editors-picks {
-    /*border: 2px solid black;*/
-    height: 300px;
-    width: 250px;
+    /* border: 2px solid black; */
+    width: 350px;
     float: right;
     position: relative;
-    bottom: 25px;
-    margin-right: 40px;
+    /* bottom: 25px; */
+    /* margin-right: 40px; */
+    top:-5px;
 }
 
 .editors-picks h4 {
@@ -186,6 +187,11 @@ li a i {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
+    border:1px solid ;
+    width:300px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
 }
 
 .editors-picks p {
@@ -196,23 +202,37 @@ li a i {
 }
 
 .middle-content {
-    margin: 0 auto;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 210px;
     height: 100px;
-    border: 2px solid red;
+    
     text-align: center;
 }
 
-.middle-content-text {
-    margin: 15px;
-}
 
-.middle-content-text p {
+.middle-content-text{
+    display:block;
+    margin:0 auto;
+    width: 210px;
+    height: 100px;
+    position:relative;
+    border: 1px solid lightgray;
+    border-left:none;
+    border-right:none;
+}
+.absolute{
+    position: absolute;
+    top: 31px;
+    left:2px;
+    left: 17px;
+}
+.middle-content p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 13px;
+   
 }
 
 .middle-content-text a {
@@ -225,32 +245,30 @@ li a i {
     /*align: center;**/
     margin-left: 115px;
 }
+.editor{
+    margin-top:15px;
+    height:300px;
+    /* border:2px solid green; */
+    width:auto;
+}
 
 .editors-box {
-    float: left;
-    border: 1px solid red;
+    margin-bottom:10px;
+    /* border:1px solid red */
 }
 
-.editors-image {
-    float: left;
-    border: 1px solid blue;
+.editors-title{
+    display:inline-block;
+    /* border:2px solid blue; */
+    vertical-align: top;
+    
 }
 
-.editors-image img {
-    clear: left;
-    width: 75px;
-    height: 75px;
-    border: 1px solid yellow;
+.editors-box img {
+    width: 100px;
+    height: 100px;
+    /* border:1px solid black; */
 }
-
-.editors-title {
-    border: 1px solid red;
-}
-
-.gg {
-    border: 2px solid green;
-}
-
 .inflation img {
     width: 945px;
     height: 576px;
