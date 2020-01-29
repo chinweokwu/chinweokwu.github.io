@@ -33,9 +33,7 @@ header {
     margin-top: 10px;
 }
 
-.header-menu,
-.header-search,
-.header-word {
+.header-menu, .header-search, .header-word {
     float: left;
     padding: 4px 0 0 35px;
     cursor: pointer;
@@ -80,20 +78,6 @@ svg {
     padding: 5px;
 }
 
-
-/* .group:before,
-  .group:after {
-   content: "";
-   display: table;
-   }
-    .group:after {
-   clear: both;
-   }
-  .group {
-   clear: both;
-   *zoom: 1;
-   } */
-
 .clear {
     clear: both;
 }
@@ -110,40 +94,82 @@ main {
     width: 80%;
 }
 
-.image-text p {
+.image-caption p {
     margin-right: 270px;
     color: #66667d;
 }
 
-.image-text span {
+.image-caption span {
     color: #96b8e8;
     display: inline-block;
     font-size: 3px;
 }
 
-.newyork {
-    margin-right: 610px;
+#newyork {
+    padding-left: 85px
 }
 
-.article-info {
-    float: left;
-    margin-top: 30px;
-    margin-left: 150px;
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
 }
 
-.date-and-social ul {
-    text-decoration: none;
+/* Article section */
+
+.article-section {
+    text-align: left;
+    min-width: 600px;
+    margin: 0 auto;
+    line-height: 1.9;
+    width: 600px;
 }
 
-.article-text {
-    display: block;
-    float: left;
-    padding: 40px 40px 40px 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+.author-socials {
+    height: 60px;
+}
+
+.author-socials span {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    color: black;
+    display: inline;
+    margin-right: 16px;
+    padding: 10px 0;
+}
+
+li a {
+    font-size: 20px;
+}
+
+li a :hover {
+    border: 1px soild #ccc;
+    background-color: #fff;
+}
+
+li a i {
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
 }
 
 .editors-picks {
-    display: block;
+    border: 2px solid black;
+    width: 40%;
     float: right;
 }
