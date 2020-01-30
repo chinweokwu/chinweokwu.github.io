@@ -92,23 +92,36 @@ main {
     text-align: center;
 }
 
+.section1-title {
+    padding-bottom: 40px;
+}
+
+.section1-title h1 {
+    font-family: nyt-cheltenham;
+    font-size: 40px;
+    font-style: italic;
+    text-align: left;
+    padding-left: 270px;
+}
+
 .dennis-img img {
     width: 80%;
 }
 
+.image-caption {
+    margin-left: 10%;
+    width: 890px;
+}
+
 .image-caption p {
-    margin-right: 270px;
-    color: #66667d;
+    color: #666;
+    text-align: left;
 }
 
 .image-caption span {
-    color: #96b8e8;
+    color: #888;
     display: inline-block;
-    font-size: 3px;
-}
-
-#newyork {
-    padding-left: 85px
+    font-size: 12px;
 }
 
 @media (max-width: 460px) {
@@ -126,6 +139,13 @@ main {
     margin: 0 auto;
     line-height: 1.9;
     width: 600px;
+    font-size: 20px;
+}
+
+.article-section p {
+    margin-bottom: 20px;
+    line-height: 33px;
+    font-family: nyt-imperial;
 }
 
 .author-socials {
@@ -151,6 +171,7 @@ li {
 
 li a {
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li a :hover {
@@ -354,9 +375,11 @@ li a i {
     top: 415px;
     left: 735px;
 }
-.section3{
-    margin-top:50px;
+
+.section3 {
+    margin-top: 50px;
 }
-.iframe{
-    margin:40px 0 40px 0;
+
+.iframe {
+    margin: 40px 0 40px 0;
 }
