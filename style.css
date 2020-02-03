@@ -126,24 +126,27 @@ main {
 
 .image-caption {
     width: 590px;
-}
-
-.image-caption p {
+    line-height: 15px;
     color: #666;
-    text-align: left;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .image-caption span {
     color: #888;
     display: inline-block;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 @media (max-width: 460px) {
     #img-caption {
         font-size: 1.4rem;
     }
+}
+
+#telescope p {
+    line-height: 15px;
+    color: #666;
+    font-size: 14px;
 }
 
 
@@ -164,6 +167,14 @@ main {
     font-family: nyt-imperial;
 }
 
+.article-section a {
+    color: #567b95;
+}
+
+.article-section h3 {
+    font-family: nyt-imperial;
+}
+
 .author-name p {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 16px;
@@ -173,6 +184,7 @@ main {
 
 #author {
     text-decoration: none;
+    color: black;
 }
 
 #author:hover {
@@ -449,6 +461,7 @@ p {
     font-size: 10px;
     width: 700px;
     line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .final-socials {
@@ -639,7 +652,7 @@ p {
     color: #333;
     float: left;
     border: 1px solid red;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .news-list a {
