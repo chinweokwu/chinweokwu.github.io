@@ -22,8 +22,6 @@ header {
 }
 
 .header-title {
-    /* display: inline-block; */
-    /* padding: 15px; */
     margin-top: 10px;
     width: 220px;
     height: 35px;
@@ -80,11 +78,6 @@ svg {
     float: left;
     padding: 5px;
 }
-
-
-/* .clear {
-    clear: both;
-} */
 
 main {
     padding: 80px;
@@ -303,32 +296,27 @@ li a i {
 
 .middle-content hr {
     width: 70px;
-    /*align: center;**/
     margin-left: 115px;
 }
 
 .editor {
     margin-top: 15px;
     height: 300px;
-    /* border:2px solid green; */
     width: auto;
 }
 
 .editors-box {
     margin-bottom: 10px;
-    /* border:1px solid red */
 }
 
 .editors-title {
     display: inline-block;
-    /* border:2px solid blue; */
     vertical-align: top;
 }
 
 .editors-box img {
     width: 100px;
     height: 100px;
-    /* border:1px solid black; */
 }
 
 #inflation-intro {
@@ -354,8 +342,6 @@ p {
     background-image: url("images/img4.png");
     background-size: 100% auto;
     position: relative;
-    /*width: 100%;
-    height: 550px;*/
     width: 945px;
     height: 576px;
     display: block;
@@ -454,7 +440,7 @@ p {
 }
 
 .final-comment p {
-    color: #666666;
+    color: #666;
     font-size: 10px;
     width: 700px;
     line-height: 15px;
@@ -470,7 +456,7 @@ p {
     margin-top: 4px;
     width: 300px;
     height: 30px;
-    background-color: #567B95;
+    background-color: #567b95;
     color: white;
     border-radius: 5px;
     border: none;
@@ -506,13 +492,6 @@ p {
     float: left;
     width: 55%;
     min-height: 1px;
-    /*
-    width: 67%;
-    height: 650px;
-    margin-left: 70px;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 1px solid black; */
 }
 
 .footer-section h3 {
@@ -527,14 +506,6 @@ p {
     min-height: 1px;
     border-top: solid 1px black;
     margin-left: 20px;
-    /*
-    float: right;
-    width: 20%;
-    height: 100px;
-    margin-left: 50px;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0; */
 }
 
 .sidebar-footer h3 {
@@ -601,7 +572,6 @@ p {
     font-size: 8px;
     color: #666;
     text-align: left;
-    /*maybe left margin*/
 }
 
 .footer-sidetext {
@@ -647,7 +617,6 @@ p {
     width: 1200px;
     margin: 0 auto;
     height: 380px;
-    /* border: 1px solid red; */
     clear: both;
 }
 
@@ -784,7 +753,6 @@ p {
 }
 
 #final-footer li>a {
-    /*fix ul and li hierarchy*/
     display: inline-block;
     font-size: 11px;
     font-family: nyt-franklin, Arial, Helvetica, sans-serif;
