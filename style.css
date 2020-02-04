@@ -37,6 +37,42 @@ header {
     margin-top: 10px;
 }
 
+
+ul {
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    color: black;
+    display: inline;
+    margin-right: 16px;
+    padding: 10px 0;
+}
+
+li a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a :hover {
+    border: 1px soild #ccc;
+    background-color: #fff;
+}
+
+li a i {
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+}
+
 .header-menu,
 .header-search,
 .header-word {
@@ -95,7 +131,7 @@ main {
 }
 
 .section1-title h1 {
-    font-family: nyt-cheltenham;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     font-size: 40px;
     font-style: italic;
     text-align: left;
@@ -136,35 +172,9 @@ main {
     }
 }
 
-#telescope p {
-    line-height: 15px;
-    color: #666;
-    font-size: 14px;
-}
-
-
-/* Article section */
-
-.article-section {
-    text-align: left;
-    min-width: 600px;
-    margin: 0 auto;
-    line-height: 1.9;
-    width: 600px;
-    font-size: 20px;
-}
-
 .article-section p {
     margin-bottom: 20px;
     line-height: 33px;
-    font-family: nyt-imperial;
-}
-
-.article-section a {
-    color: #567b95;
-}
-
-.article-section h3 {
     font-family: nyt-imperial;
 }
 
@@ -172,61 +182,6 @@ main {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    color: black;
-}
-
-#author {
-    text-decoration: none;
-    color: black;
-}
-
-#author:hover {
-    text-decoration: none;
-}
-
-.author-socials {
-    height: 60px;
-}
-
-.author-socials span {
-    display: inline-block;
-    padding-top: 10px;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 16px;
-}
-
-ul {
-    float: right;
-}
-
-li {
-    list-style-type: none;
-    color: black;
-    display: inline;
-    margin-right: 16px;
-    padding: 10px 0;
-}
-
-li a {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-li a :hover {
-    border: 1px soild #ccc;
-    background-color: #fff;
-}
-
-li a i {
-    background-color: #eee;
-    border: 1px #eee solid;
-    border-radius: 100%;
-    padding: 5px;
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
     color: black;
 }
 
@@ -253,7 +208,7 @@ li a i {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     padding: 10px;
-    width: 210px
+    width: 210px;
 }
 
 .middle-content {
@@ -274,6 +229,49 @@ li a i {
     border: 1px solid lightgray;
     border-left: none;
     border-right: none;
+}
+
+#telescope p {
+    line-height: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.article-section {
+    text-align: left;
+    min-width: 600px;
+    margin: 0 auto;
+    line-height: 1.9;
+    width: 600px;
+    font-size: 20px;
+}
+
+.article-section a {
+    color: #567b95;
+}
+
+.article-section h3 {
+    font-family: nyt-imperial;
+}
+
+#author {
+    text-decoration: none;
+    color: black;
+}
+
+#author:hover {
+    text-decoration: none;
+}
+
+.author-socials {
+    height: 60px;
+}
+
+.author-socials span {
+    display: inline-block;
+    padding-top: 10px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 16px;
 }
 
 .absolute {
@@ -432,7 +430,7 @@ p {
 }
 
 .img5 img {
-    width: 600px
+    width: 600px;
 }
 
 .final-comment {
@@ -462,13 +460,10 @@ p {
     border: none;
 }
 
-.final-socials li>a {
+.final-socials li > a {
     font-size: 14px;
     font-weight: bold;
 }
-
-
-/*footer-content*/
 
 .footer-content {
     margin-top: 50px;
@@ -536,7 +531,7 @@ p {
     min-height: 1px;
 }
 
-.fig-img a>img {
+.fig-img a > img {
     width: 250px;
     height: 180px;
 }
@@ -588,9 +583,6 @@ p {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-
-/* FOOTER */
 
 .title-home-page a {
     float: left;
@@ -752,7 +744,7 @@ p {
     margin: 0 auto;
 }
 
-#final-footer li>a {
+#final-footer li > a {
     display: inline-block;
     font-size: 11px;
     font-family: nyt-franklin, Arial, Helvetica, sans-serif;
