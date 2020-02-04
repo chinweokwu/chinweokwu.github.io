@@ -744,8 +744,7 @@ main {
     color: #666;
 }
 
-#inflation-intro h4,
-p {
+#inflation-intro p, h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
