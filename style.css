@@ -301,6 +301,25 @@ main {
     height: 100px;
 }
 
+.inflation-intro {
+    margin: 0 auto;
+    width: 945px;
+    margin-bottom: 20px;
+}
+
+.inflation-intro p {
+    color: #666;
+}
+
+.inflation-intro p,
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inflation-intro h4 {
+    font-size: 17px;
+}
+
 .inflation-grid {
     background-image: url("images/img4.png");
     background-size: 100% auto;
@@ -734,20 +753,3 @@ main {
     color: #666;
 }
 
-#inflation-intro {
-    margin: 0 auto;
-    width: 945px;
-    margin-bottom: 20px;
-}
-
-#inflation-intro p {
-    color: #666;
-}
-
-#inflation-intro p, h4 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#inflation-intro h4 {
-    font-size: 17px;
-}
