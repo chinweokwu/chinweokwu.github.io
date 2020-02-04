@@ -37,7 +37,6 @@ header {
     margin-top: 10px;
 }
 
-
 ul {
     float: right;
 }
@@ -175,7 +174,7 @@ main {
 .article-section p {
     margin-bottom: 20px;
     line-height: 33px;
-    font-family: nyt-imperial;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 .author-name p {
@@ -231,12 +230,6 @@ main {
     border-right: none;
 }
 
-#telescope p {
-    line-height: 15px;
-    color: #666;
-    font-size: 14px;
-}
-
 .article-section {
     text-align: left;
     min-width: 600px;
@@ -251,16 +244,7 @@ main {
 }
 
 .article-section h3 {
-    font-family: nyt-imperial;
-}
-
-#author {
-    text-decoration: none;
-    color: black;
-}
-
-#author:hover {
-    text-decoration: none;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 .author-socials {
@@ -315,25 +299,6 @@ main {
 .editors-box img {
     width: 100px;
     height: 100px;
-}
-
-#inflation-intro {
-    margin: 0 auto;
-    width: 945px;
-    margin-bottom: 20px;
-}
-
-#inflation-intro h4,
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#inflation-intro h4 {
-    font-size: 17px;
-}
-
-#inflation-intro p {
-    color: #666;
 }
 
 .inflation-grid {
@@ -433,6 +398,21 @@ p {
     width: 600px;
 }
 
+.footer-sidetext {
+    margin-top: 10px;
+}
+
+.footer-sidetext a {
+    display: block;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .final-comment {
     margin-top: 30px;
 }
@@ -460,11 +440,6 @@ p {
     border: none;
 }
 
-.final-socials li > a {
-    font-size: 14px;
-    font-weight: bold;
-}
-
 .footer-content {
     margin-top: 50px;
     float: left;
@@ -474,7 +449,7 @@ p {
 
 .footer-content * p {
     font-size: 12px;
-    font-family: nyt-imperial;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 .footer-container {
@@ -569,21 +544,6 @@ p {
     text-align: left;
 }
 
-.footer-sidetext {
-    margin-top: 10px;
-}
-
-.footer-sidetext a {
-    display: block;
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-size: 19px;
-    text-decoration: none;
-    color: black;
-    border-top: 1px solid #ccc;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 .title-home-page a {
     float: left;
     margin-bottom: 10px;
@@ -592,17 +552,6 @@ p {
 .title-home-page svg {
     width: 200px;
     float: left;
-}
-
-#home-page a {
-    color: rgb(86, 123, 149);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    line-height: 11px;
-    text-decoration: none;
-    float: right;
-    margin-right: 100px;
 }
 
 .bottom-nav {
@@ -666,10 +615,6 @@ p {
     text-decoration: none;
     font-size: 13px;
     color: black;
-}
-
-.news-list a:hover {
-    text-decoration: underline;
 }
 
 .subscribe-column {
@@ -740,6 +685,41 @@ p {
     text-decoration: none;
 }
 
+.news-list a:hover {
+    text-decoration: underline;
+}
+
+.final-socials li > a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#author {
+    text-decoration: none;
+    color: black;
+}
+
+#author:hover {
+    text-decoration: none;
+}
+
+#home-page a {
+    color: rgb(86, 123, 149);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    float: right;
+    margin-right: 100px;
+}
+
+#telescope p {
+    line-height: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
 #final-footer {
     margin: 0 auto;
 }
@@ -753,3 +733,23 @@ p {
     text-decoration: none;
     color: #666;
 }
+
+#inflation-intro {
+    margin: 0 auto;
+    width: 945px;
+    margin-bottom: 20px;
+}
+
+#inflation-intro h4,
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#inflation-intro h4 {
+    font-size: 17px;
+}
+
+#inflation-intro p {
+    color: #666;
+}
+
