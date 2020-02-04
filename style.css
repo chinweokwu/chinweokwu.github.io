@@ -174,7 +174,7 @@ main {
 .article-section p {
     margin-bottom: 20px;
     line-height: 33px;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .author-name p {
@@ -244,7 +244,7 @@ main {
 }
 
 .article-section h3 {
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .author-socials {
@@ -449,7 +449,7 @@ main {
 
 .footer-content * p {
     font-size: 12px;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .footer-container {
@@ -648,6 +648,18 @@ main {
     border: 0;
 }
 
+.subs-list-b a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
 .subs-list li a {
     color: rgb(0, 0, 0);
     display: inline-block;
@@ -673,25 +685,13 @@ main {
     border-top: 1px solid rgb(226, 226, 226);
 }
 
-.subs-list-b a {
-    color: rgb(0, 0, 0);
-    display: inline-block;
-    text-transform: capitalize;
-    width: 150px;
-    font-size: 11px;
-    font-weight: 500;
-    height: 23px;
-    line-height: 21px;
-    text-decoration: none;
+.final-socials li > a {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .news-list a:hover {
     text-decoration: underline;
-}
-
-.final-socials li > a {
-    font-size: 14px;
-    font-weight: bold;
 }
 
 #author {
@@ -740,6 +740,10 @@ main {
     margin-bottom: 20px;
 }
 
+#inflation-intro p {
+    color: #666;
+}
+
 #inflation-intro h4,
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -748,8 +752,3 @@ p {
 #inflation-intro h4 {
     font-size: 17px;
 }
-
-#inflation-intro p {
-    color: #666;
-}
-
