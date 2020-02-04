@@ -22,10 +22,16 @@ header {
 }
 
 .header-title {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 15px;
+    /* display: inline-block; */
+    /* padding: 15px; */
     margin-top: 10px;
+    width: 220px;
+    height: 35px;
+    float: left;
+    margin-left: 24%;
+    padding-right: 40px;
+    cursor: pointer;
+    padding-top: 2px;
 }
 
 .header-content {
@@ -51,16 +57,6 @@ header {
 
 .header-word a :hover {
     text-decoration: underline;
-}
-
-.header-title {
-    width: 185px;
-    height: 25px;
-    margin-left: 300px;
-    float: left;
-    padding-right: 40px;
-    cursor: pointer;
-    padding-top: 2px;
 }
 
 svg {
@@ -100,6 +96,9 @@ main {
 
 .section1-title {
     padding-bottom: 40px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .section1-title h1 {
@@ -107,7 +106,7 @@ main {
     font-size: 40px;
     font-style: italic;
     text-align: left;
-    padding-left: 270px;
+    padding-left: 25%;
 }
 
 .dennis-img img {
@@ -239,13 +238,10 @@ li a i {
 }
 
 .editors-picks {
-    /* border: 2px solid black; */
     width: 350px;
     float: right;
     position: relative;
-    /* bottom: 25px; */
-    /* margin-right: 40px; */
-    top: -5px;
+    top: 5px;
 }
 
 .editors-picks h4 {
@@ -555,12 +551,12 @@ p {
 
 .more-grid {
     display: block;
-    height: 460px;
+    height: 485px;
 }
 
 .more-grid-2 {
     display: block;
-    height: 300px;
+    height: 250px;
 }
 
 .more-float {
@@ -570,57 +566,17 @@ p {
 }
 
 .fig-img a>img {
-    width: 225px;
-    height: 150px;
+    width: 250px;
+    height: 180px;
 }
 
 .fig-img {
-    height: 225px;
+    height: 240px;
 }
 
 .footer-content h3 {
     padding-top: 12px;
 }
-
-
-/* .fig-img {
-    float: left;
-} */
-
-
-/* 
-.fig-img img {
-    width: 293px;
-    height: 200px;
-}
-
-.fig2,
-.fig3 {
-    padding-left: 12px;
-} */
-
-
-/* .fig-img p {
-    width: 260px;
-} */
-
-
-/* 
-.fig-img2 {
-    float: right;
-} */
-
-
-/* 
-.figs2,
-.figs3 {
-    padding-right: 12px;
-    margin-top: 40px;
-}
-
-.figs1 {
-    margin-top: 57px;
-} */
 
 .ed-picks {
     border-top: 1px solid black;
@@ -634,25 +590,23 @@ p {
     font-size: 15px;
 }
 
+.more-float p.source {
+    font-size: 8px;
+    color: #666;
+    text-align: right;
+    margin-right: 15px;
+}
 
-/* 
-.last-img {
-    margin-top: 15px
-} */
+.more-float p.source-left {
+    font-size: 8px;
+    color: #666;
+    text-align: left;
+    /*maybe left margin*/
+}
 
 .footer-sidetext {
     margin-top: 10px;
 }
-
-
-/* .footer-sidetext p {
-    padding: 17px 17px 17px 0;
-    font-size: 16px;
-    border: 1px solid #E2E2E2;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-} */
 
 .footer-sidetext a {
     display: block;
@@ -825,12 +779,17 @@ p {
     text-decoration: none;
 }
 
-#final-footer ul>a {
+#final-footer {
+    margin: 0 auto;
+}
+
+#final-footer li>a {
+    /*fix ul and li hierarchy*/
     display: inline-block;
     font-size: 11px;
     font-family: nyt-franklin, Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    overflow: auto;
+    margin-top: 5px;
+    margin-right: 10px;
     text-decoration: none;
     color: #666;
 }
