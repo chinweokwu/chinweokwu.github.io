@@ -12,7 +12,7 @@
 
 ## Live Demo
 
- [https://chinweokwu.github.io/]
+ - [https://chinweokwu.github.io/]
 
 ## Getting Started
 
