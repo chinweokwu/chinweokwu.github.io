@@ -2,9 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  
-  header {
+}
+
+header {
     width: 100%;
     text-align: center;
     height: 0 auto;
@@ -15,43 +15,43 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
-  }
-  
-  .header-button {
+}
+
+.header-button {
     float: right;
-  }
-  
-  .header-title {
+}
+
+.header-title {
     display: inline-block;
     margin: 0 auto;
     padding: 15px;
     margin-top: 10px;
-  }
-  
-  .header-content, .header-title, .header-buttons {
+}
+
+.header-content, .header-title, .header-buttons {
     float: left;
     margin-top: 10px;
-  }
-  
-  .header-menu, .header-search, .header-word {
+}
+
+.header-menu, .header-search, .header-word {
     float: left;
     padding: 4px 0 0 35px;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  .header-word a {
+}
+
+.header-word a {
     color: black;
     text-decoration: none;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 13px;
-  }
-  
-  .header-word a :hover {
+}
+
+.header-word a :hover {
     text-decoration: underline;
-  }
-  
-  .header-title {
+}
+
+.header-title {
     width: 185px;
     height: 25px;
     margin-left: 300px;
@@ -59,13 +59,13 @@
     padding-right: 40px;
     cursor: pointer;
     padding-top: 2px;
-  }
-  
-  svg {
+}
+
+svg {
     width: 200px;
-  }
-  
-  .header-button button {
+}
+
+.header-button button {
     background-color: #567b95;
     border: 1px solid #326891;
     color: #fff;
@@ -76,153 +76,153 @@
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 11px;
     font-weight: bold;
-  }
-  
-  .btn {
+}
+
+.btn {
     float: left;
     padding: 5px;
-  }
-  
-  .clear {
+}
+
+.clear {
     clear: both;
-  }
-  
-  main {
+}
+
+main {
     padding: 80px;
-  }
-  
-  .section1-container {
+}
+
+.section1-container {
     text-align: center;
-  }
-  
-  .section1-title {
+}
+
+.section1-title {
     padding-bottom: 40px;
-  }
-  
-  .section1-title h1 {
+}
+
+.section1-title h1 {
     font-family: nyt-cheltenham;
     font-size: 40px;
     font-style: italic;
     text-align: left;
     padding-left: 270px;
-  }
-  
-  .dennis-img img {
+}
+
+.dennis-img img {
     width: 80%;
-  }
-  
-  .image-caption1 {
+}
+
+.image-caption1 {
     width: 890px;
     margin-left: 120px;
-  }
-  
-  .image-caption1 p {
+}
+
+.image-caption1 p {
     color: #666;
     text-align: left;
     font-size: 16px;
-  }
-  
-  .image-caption {
+}
+
+.image-caption {
     width: 590px;
-  }
-  
-  .image-caption p {
+}
+
+.image-caption p {
     color: #666;
     text-align: left;
     font-size: 16px;
-  }
-  
-  .image-caption span {
+}
+
+.image-caption span {
     color: #888;
     display: inline-block;
     font-size: 12px;
-  }
-  
-  @media (max-width: 460px) {
+}
+
+@media (max-width: 460px) {
     #img-caption {
         font-size: 1.4rem;
     }
-  }
-  
-  /* Article section */
-  
-  .article-section {
+}
+
+/* Article section */
+
+.article-section {
     text-align: left;
     min-width: 600px;
     margin: 0 auto;
     line-height: 1.9;
     width: 600px;
     font-size: 20px;
-  }
-  
-  .article-section p {
+}
+
+.article-section p {
     margin-bottom: 20px;
     line-height: 33px;
     font-family: nyt-imperial;
-  }
-  
-  .author-name p {
+}
+
+.author-name p {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: black;
-  }
-  
-  #author {
+}
+
+#author {
     text-decoration: none;
-  }
-  
-  #author:hover {
+}
+
+#author:hover {
     text-decoration: none;
-  }
-  
-  .author-socials {
+}
+
+.author-socials {
     height: 60px;
-  }
-  
-  .author-socials span {
+}
+
+.author-socials span {
     display: inline-block;
     padding-top: 10px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 16px;
-  }
-  
-  .author-socials ul {
+}
+
+.author-socials ul {
     float: right;
-  }
-  
-  .author-socials li {
+}
+
+.author-socials li {
     list-style-type: none;
     color: black;
     display: inline;
     margin-right: 16px;
     padding: 10px 0;
-  }
-  
-  .author-socials li a {
+}
+
+.author-socials li a {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .final-socials ul {
+}
+
+.final-socials ul {
     float: right;
-  }
-  
-  .final-socials li {
+}
+
+.final-socials li {
     list-style-type: none;
     color: black;
     display: inline;
     margin-right: 16px;
     padding: 10px 0;
-  }
-  
-  .final-socials li a {
+}
+
+.final-socials li a {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-  }
-  
-  .final-socials li a i {
+}
+
+.final-socials li a i {
     background-color: #eee;
     border: 1px #eee solid;
     border-radius: 100%;
@@ -233,14 +233,14 @@
     vertical-align: middle;
     text-align: center;
     color: black;
-  }
-  
-  .author-socials li a :hover {
+}
+
+.author-socials li a :hover {
     border: 1px soild #ccc;
     background-color: #fff;
-  }
-  
-  .author-socials li a i {
+}
+
+.author-socials li a i {
     background-color: #eee;
     border: 1px #eee solid;
     border-radius: 100%;
@@ -251,16 +251,16 @@
     vertical-align: middle;
     text-align: center;
     color: black;
-  }
-  
-  .editors-picks {
+}
+
+.editors-picks {
     width: 350px;
     float: right;
     position: relative;
     top: -5px;
-  }
-  
-  .editors-picks h4 {
+}
+
+.editors-picks h4 {
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -270,25 +270,25 @@
     border-top: none;
     border-left: none;
     border-right: none;
-  }
-  
-  .editors-picks p {
+}
+
+.editors-picks p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     padding: 10px;
     width: 210px
-  }
-  
-  .middle-content {
+}
+
+.middle-content {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 210px;
     height: 100px;
     text-align: center;
-  }
-  
-  .middle-content-text {
+}
+
+.middle-content-text {
     display: block;
     margin: 0 auto;
     width: 210px;
@@ -297,75 +297,70 @@
     border: 1px solid lightgray;
     border-left: none;
     border-right: none;
-  }
-  
-  .absolute {
+}
+
+.absolute {
     position: absolute;
     top: 31px;
     left: 2px;
     left: 17px;
-  }
-  
-  .middle-content p {
+}
+
+.middle-content p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 13px;
-  }
-  
-  .middle-content-text a {
+}
+
+.middle-content-text a {
     text-decoration: none;
     color: #326891;
-  }
-  
-  .middle-content hr {
+}
+
+.middle-content hr {
     width: 70px;
-    /*align: center;**/
     margin-left: 115px;
-  }
-  
-  .editor {
+}
+
+.editor {
     margin-top: 15px;
     height: 300px;
-    /* border:2px solid green; */
     width: auto;
-  }
-  
-  .editors-box {
+}
+
+.editors-box {
     margin-bottom: 10px;
-    /* border:1px solid red */
-  }
-  
-  .editors-title {
+}
+
+.editors-title {
     display: inline-block;
-    /* border:2px solid blue; */
     vertical-align: top;
-  }
-  
-  .editors-box img {
+}
+
+.editors-box img {
     width: 100px;
     height: 100px;
-    /* border:1px solid black; */
-  }
-  
-  #inflation-intro {
+}
+
+#inflation-intro {
     margin: 0 auto;
     width: 945px;
     margin-bottom: 20px;
-  }
-  
-  #inflation-intro h4, p {
+}
+
+#inflation-intro h4, p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  #inflation-intro h4 {
+}
+
+#inflation-intro h4 {
     font-size: 17px;
-  }
-  
-  #inflation-intro p {
+}
+
+#inflation-intro p {
     color: #666;
-  }
-  
-  .inflation-grid {
+}
+
+.inflation-grid {
     background-image: url("images/img4.png");
     background-size: 100% auto;
     position: relative;
@@ -374,115 +369,114 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .inflation-grid p {
+}
+
+.inflation-grid p {
     font-size: 14px;
-  }
-  
-  .inflation-p1 {
+}
+
+.inflation-p1 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 135px;
-  }
-  
-  .inflation-p2 {
+}
+
+.inflation-p2 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 135px;
     left: 247px;
-  }
-  
-  .inflation-p3 {
+}
+
+.inflation-p3 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 135px;
     left: 500px;
-  }
-  
-  .inflation-p4 {
+}
+
+.inflation-p4 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 135px;
     left: 735px;
-  }
-  
-  .inflation-p5 {
+}
+
+.inflation-p5 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 415px;
-  }
-  
-  .inflation-p6 {
+}
+
+.inflation-p6 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 415px;
     left: 247px;
-  }
-  
-  .inflation-p7 {
+}
+
+.inflation-p7 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 415px;
     left: 500px;
-  }
-  
-  .inflation-p8 {
+}
+
+.inflation-p8 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     position: absolute;
     top: 415px;
     left: 735px;
-  }
-  
-  .section3 {
+}
+
+.section3 {
     margin-top: 50px;
-  }
-  
-  .iframe {
+}
+
+.iframe {
     margin: 40px 0 40px 0;
     width: 560px;
     height: 342px;
-    border:none;
-  }
-  
-  
-  .img5 img {
+    border: none;
+}
+
+.img5 img {
     width: 600px
-  }
-  
-  .final-comment {
+}
+
+.final-comment {
     margin-top: 30px;
-  }
-  
-  .final-comment p {
-    color: #666666;
+}
+
+.final-comment p {
+    color: #666;
     font-size: 10px;
     width: 700px;
     line-height: 15px;
-  }
-  
-  .final-socials {
+}
+
+.final-socials {
     margin-top: 30px;
     width: 700px;
-  }
-  
-  .final-socials button {
+}
+
+.final-socials button {
     margin-top: 4px;
     width: 300px;
     height: 30px;
@@ -490,13 +484,13 @@
     color: white;
     border-radius: 5px;
     border: none;
-  }
-  
-  .final-socials li a {
+}
+
+.final-socials li a {
     font-size: 16px;
-  }
-  
-  .footer-section {
+}
+
+.footer-section {
     border: 1px solid black;
     width: 67%;
     height: 650px;
@@ -505,13 +499,13 @@
     border-right: 0;
     border-bottom: 1px solid black;
     margin-top: -100px;
-  }
-  
-  .footer-section h3 {
+}
+
+.footer-section h3 {
     padding-bottom: 10px;
-  }
-  
-  .sidebar-footer {
+}
+
+.sidebar-footer {
     border: 1px solid black;
     float: right;
     width: 20%;
@@ -521,164 +515,164 @@
     border-right: 0;
     border-bottom: 0;
     margin-top: 100px;
-  }
-  
-  .left {
+}
+
+.left {
     float: right;
-  }
-  
-  .side-header {
+}
+
+.side-header {
     margin-top: 10px;
-  }
-  
-  .footer-content h3 {
+}
+
+.footer-content h3 {
     padding-top: 12px;
-  }
-  
-  .fig-img {
+}
+
+.fig-img {
     float: left;
-  }
-  
-  .fig-img img {
+}
+
+.fig-img img {
     width: 293px;
     height: 200px;
-  }
-  
-  .fig2, .fig3 {
+}
+
+.fig2, .fig3 {
     padding-left: 12px;
-  }
-  
-  .fig-img p {
+}
+
+.fig-img p {
     width: 260px;
-  }
-  
-  .fig-img2 {
+}
+
+.fig-img2 {
     float: right;
-  }
-  
-  .figs2, .figs3 {
+}
+
+.figs2, .figs3 {
     padding-right: 12px;
     margin-top: 40px;
-  }
-  
-  .figs1 {
+}
+
+.figs1 {
     margin-top: 57px;
-  }
-  
-  .ed-picks h4 {
+}
+
+.ed-picks h4 {
     margin-top: 35px;
-  }
-  
-  .last-img {
+}
+
+.last-img {
     margin-top: 15px
-  }
-  
-  .footer-sidetext {
+}
+
+.footer-sidetext {
     margin-top: 10px;
-  }
-  
-  .footer-sidetext p {
+}
+
+.footer-sidetext p {
     padding: 17px 17px 17px 0;
     font-size: 16px;
     border: 1px solid #e2e2e2;
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
-  }
-  
-  .footer-title {
+}
+
+.footer-title {
     padding-top: 10px;
-  }
-  
-  .lefthand {
+}
+
+.lefthand {
     float: left;
     margin-top: 30px;
-  }
-  
-  .bottom-hr {
+}
+
+.bottom-hr {
     margin-top: 80px;
     border-top: 3px double #e2e2e2;
     width: 90%;
     margin-left: 70px;
-  }
-  
-  .bottom-footer {
+}
+
+.bottom-footer {
     margin-left: 70px;
-  }
-  
-  .lefthand a {
+}
+
+.lefthand a {
     padding: 10px 10px 10px 0;
     line-height: 5px;
-  }
-  
-  .lefthand li {
+}
+
+.lefthand li {
     padding: 10px 10px 10px 0;
     line-height: 5px;
-  }
-  
-  .bottom-footer li {
+}
+
+.bottom-footer li {
     list-style-type: none;
-  }
-  
-  .subscribe-column {
+}
+
+.subscribe-column {
     margin-left: 70px
-  }
-  
-  .subscribe-column svg {
+}
+
+.subscribe-column svg {
     width: 15px
-  }
-  
-  .last-sub {
+}
+
+.last-sub {
     margin-top: 10px;
-  }
-  
-  .footer-link {
+}
+
+.footer-link {
     margin-right: 65px;
     float: right;
-  }
-  
-  .footer-link p a {
+}
+
+.footer-link p a {
     color: #7d6695;
-  }
-  
-  .footer-link p span {
+}
+
+.footer-link p span {
     font-size: 1px;
-  }
-  
-  .last-hr {
+}
+
+.last-hr {
     width: 90%;
     margin-left: 70px;
     margin-top: 10px;
-  }
-  
-  .footer-contacts p {
+}
+
+.footer-contacts p {
     padding: 10px;
     text-align: center;
     color: #7d6695;
-  }
-  
-  .table {
+}
+
+.table {
     display: table;
     margin: 0 auto;
-  }
-  
-  ul#horizontal-list {
+}
+
+ul#horizontal-list {
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  
-  ul#horizontal-list li {
+}
+
+ul#horizontal-list li {
     display: inline;
     padding-left: 15px;
-  }
-  
-  ul#horizontal-list li a {
+}
+
+ul#horizontal-list li a {
     color: #7d6695;
     text-decoration: none;
-  }
-  
-  ul#horizontal-list li a :hover {
+}
+
+ul#horizontal-list li a :hover {
     color: rgb(237, 228, 247);
     text-decoration: underline;
-  }
+}
