@@ -537,6 +537,12 @@ h4 {
     background-color: white;
 }
 
+.create-account-bar img {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
 .fig-img a > img {
     width: 250px;
     height: 180px;
@@ -734,12 +740,6 @@ h4 {
     padding-left: 60px;
     font-size: 13px;
     font-weight: bold;
-}
-
-.create-account-bar img {
-    width: 15px;
-    height: 15px;
-    margin-top: 5px;
 }
 
 .final-socials li > a {
