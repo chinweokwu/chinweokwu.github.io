@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://elmejdki.github.io/TubeClone/)
+[Live Demo Link](https://chinweokwu.github.io/)
 
 
 ## Getting Started
