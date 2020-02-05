@@ -525,7 +525,19 @@ h4 {
     min-height: 1px;
 }
 
-.fig-img a>img {
+.create-account-bar {
+    width: 100%;
+    border-top: 1px solid black;
+    clear: both;
+    height: 60px;
+    z-index: 99;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+
+.fig-img a > img {
     width: 250px;
     height: 180px;
 }
@@ -679,6 +691,13 @@ h4 {
     text-decoration: none;
 }
 
+.create-account-bar a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color: black;
+}
+
 .subs-list li a {
     color: rgb(0, 0, 0);
     display: inline-block;
@@ -704,28 +723,9 @@ h4 {
     border-top: 1px solid rgb(226, 226, 226);
 }
 
-.create-account-bar {
-    width: 100%;
-    border-top: 1px solid black;
-    clear: both;
-    height: 60px;
-    z-index: 99;
-    padding: 15px;
-    position: fixed;
-    bottom: 0;
-    background-color: white;
-}
-
 .center-bar {
     margin-left: 25%;
     margin-right: 25%;
-}
-
-.create-account-bar a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    color: black;
 }
 
 .create-account-bar button {
@@ -742,7 +742,7 @@ h4 {
     margin-top: 5px;
 }
 
-.final-socials li>a {
+.final-socials li > a {
     font-size: 14px;
     font-weight: bold;
 }
@@ -781,7 +781,7 @@ h4 {
     margin: 0 auto;
 }
 
-#final-footer li>a {
+#final-footer li > a {
     display: inline-block;
     font-size: 11px;
     font-family: nyt-franklin, Arial, Helvetica, sans-serif;
